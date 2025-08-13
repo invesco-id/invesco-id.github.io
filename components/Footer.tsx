@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors duration-300"
             >
-                FarrosFR
+                FarrosFR 
             </a>
         </span>
     </div>
