@@ -5,7 +5,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
         // TAMBAHKAN BARIS INI
-      base: '/invesco-id.github.io/', 
+      base: '/', 
         
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
