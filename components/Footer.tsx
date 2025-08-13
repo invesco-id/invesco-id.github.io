@@ -65,10 +65,23 @@ const Footer: React.FC = () => {
                 </div>
             </div>
             <div className="bg-gray-900 py-4">
-                <div className="container mx-auto px-6 text-center text-gray-500">
-                    &copy; {new Date().getFullYear()} PT INVESTASI ECOENERGI INDONESIA. All Rights Reserved.
-                </div>
-            </div>
+    <div className="container mx-auto px-6 text-center text-sm text-gray-500">
+        <span>
+            &copy; {new Date().getFullYear()} PT INVESTASI ECOENERGI INDONESIA. All Rights Reserved.
+        </span>
+        <span className="mx-2">|</span>
+        <span>
+            Developed by <a 
+                href="https://farrosfr.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors duration-300"
+            >
+                FarrosFR
+            </a>
+        </span>
+    </div>
+</div>
         </footer>
     );
 };
